@@ -1,0 +1,62 @@
+.flag-app{
+    width:1240px;
+    margin:auto;
+}
+.home-flag{
+    text-align:center;
+}
+.home-flag p{
+    font-weight: 500;
+    color: #6b6666;
+}
+.flag-picker{
+    display:flex;
+    margin-top: 40px;
+}
+.continent-picker{
+    flex:1;
+    text-align: center;
+}
+.continent-picker h3{
+    margin:0;
+    font-family: inherit;
+    font-weight: 500;
+}
+.continent-picker input[type="text"]{
+    width: 300px;
+    padding: 6px 0px;
+    border: 1px solid #c7c4c4;
+    border-radius: 4px;
+    padding-left: 4px;
+    box-sizing: border-box;
+}
+.search-box-container label{
+    display:block;
+    margin: 10px 0px;
+    color: #524e4e;
+}
+.home-flag h1{
+    color: #1195a2;
+    font-weight: 400;
+}
+.selected-country p{
+    color: #524e4e;
+}
+
+.home-content-flag > div{
+    margin-top:25px;
+}
+
+.home-content-flag .flag{
+    font-size: 50px;
+}
+
+.home-content-flag button{
+    background-color: #00BCD4;
+    border: 1px solid #dedede;
+    padding: 10px 10px;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 20px;
+    outline: none;
+}
